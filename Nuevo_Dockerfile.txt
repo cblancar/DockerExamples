@@ -1,0 +1,12 @@
+
+Si el proyecto requiere una configuración previa
+
+- Instalar dependencias
+- Asignar permisos a carpetas
+- Definir ciertas variables
+
+Para ello utlizamos 1 contenedor al cual nos conectaremos de forma interactiva (-it) e 
+iremos metiendo comandos necesarios hasta que tengamos todo como queremos. Para luego recuperar 
+esos comandos que hemos utilizado utilizaremos el comando "history"
+
+Se pueden ir creando imagenees con el docker commit pero lo ideal es crear un DockerFile.
